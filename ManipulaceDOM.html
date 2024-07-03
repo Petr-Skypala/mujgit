@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulace s DOM</title>
+    <script src="js/dom.js"></script>
+
+    <style>
+        .highlighted {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Práce s DOM</h2>
+    <p>Odstavec se <span class="highlighted">zvýrazněným</span> textem.</p>
+    <div class="registrationForm">
+        <label for="username">Jméno:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Heslo:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <button type="submit" id="button">Potvrdit</button>
+    </div>
+    <p>Další odstavec se <span class="highlighted">skrytým</span> textem.<span style="display: none;"> Tento text se nezobrazí.</span></p>
+    
+    <form  id="feedback">
+        <input type="text" />
+        <button>Odeslat</button>
+    </form>
+    
+</body>
+
+</html>
