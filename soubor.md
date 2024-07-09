@@ -6,3 +6,4 @@ Změna ve větvi main
 
 Změna souboru na větvi testing
 
+Nový text pro testování GitHUB Desktop
